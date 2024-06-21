@@ -1,0 +1,54 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.selected-stocks, .all-stocks, .diversity-score {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  flex-basis: 30%;
+  min-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+  color: #444;
+}
+
+.score-box {
+  font-size: 2em;
+  background: #e1f5fe;
+  color: #0277bd;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .selected-stocks, .all-stocks {
+    flex-basis: 45%;
+  }
+
+  .diversity-score {
+    flex-basis: 100%;
+    order: -1;
+  }
+}

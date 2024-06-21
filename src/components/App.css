@@ -1,0 +1,29 @@
+/* src/components/App.css */
+
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stock-list, .portfolio {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 45%;
+}
+
+.stock-item {
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.stock-item p {
+  margin: 0;
+}
+
+.portfolio p {
+  margin: 5px 0;
+}
